@@ -4,7 +4,7 @@
 Programa promovido durante o nível 9 da trilha Explorer da Rocketseat para ensino de tecnologias WEB, com foco especial em ReactJS. 
 </p>
 
-- [Acesse o projeto finalizado, online]()
+- [Acesse o projeto finalizado, online](https://rocket-notes-brs3.vercel.app/)
 <br><br>
 
 <p align="center">
@@ -27,7 +27,7 @@ Programa promovido durante o nível 9 da trilha Explorer da Rocketseat para ensi
 
 
 ## 🎯 Desafio
-- Criar uma aplicação Front-end, utilizando as tecnologias citadas abaixo, onde o usuário realiza o cadastro de notas, preenche informações como nome e descrição, e adiciona tags e links relacionados.
+- Criar uma aplicação Front-end, utilizando as tecnologias citadas abaixo, onde o usuário efetua o login ou cadastro inicial, realiza o cadastro de notas, preenche informações como nome e descrição, e adiciona tags e links relacionados.
 
 ### Principais conceitos abordados
 ```ES6 Modules``` <br>
