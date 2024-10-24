@@ -19,7 +19,8 @@ function AuthProvider({ children }) {
       localStorage.setItem('@rocketnotes:token', token)
 
       // Inserindo token Bearer de autorização
-      api.defaults.headers.authorization = `Bearer ${token}`
+      api.defaults.headers.common['Authorization'] = `Bearer ${token}`
+
       setData({ user, token })
 
     } catch(error) {
@@ -45,7 +46,7 @@ function AuthProvider({ children }) {
     const user = localStorage.getItem('@rocketnotes:user')
 
     if(token && user) {
-      api.defaults.headers.authorization = `Bearer ${token}`
+      api.defaults.headers.common['Authorization'] = `Bearer ${token}`
 
       setData({
         token,
