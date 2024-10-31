@@ -65,7 +65,7 @@ export function New() {
     })
 
     alert('Nota criada com sucesso!')
-    navigate('/')
+    navigate(-1)
   }
 
   return(
