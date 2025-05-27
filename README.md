@@ -4,6 +4,10 @@
 Programa promovido durante o nível 9 da trilha Explorer da Rocketseat para ensino de tecnologias WEB, com foco especial em ReactJS. 
 </p>
 
+<p align="center">
+RocketNotes é uma aplicação front-end desenvolvida com React que permite ao usuário cadastrar, visualizar e excluir anotações com tags. O objetivo é fornecer uma interface simples e moderna para gerenciamento de anotações pessoais, ideal para estudos, lembretes ou registro de aprendizados técnicos.
+</p>
+
 - [Acesse o projeto finalizado, online](https://rocket-notes-brs3.vercel.app/)
 <br><br>
 
@@ -51,7 +55,33 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figma
 
 
+## 🚀 Instalação e uso
 
+1. Clone o repositório:
+```bash
+git clone https://github.com/BernardoSa01/RocketNotes.git
+
+2. Acesse a pasta do projeto
+cd RocketNotes
+
+3. Instale as dependências:
+npm install
+
+4. Execute o projeto:
+npm run dev
+
+5. Acesse o app no navegador:
+http://localhost:5173
+
+
+
+## 📌 Funcionalidades
+
+- Cadastro de anotações com título, observações e tags
+- Visualização detalhada das anotações cadastradas
+- Exclusão de anotações
+- Layout responsivo
+- Integração com API para persistência de dados
 
 ## 🔖 Layout
 
